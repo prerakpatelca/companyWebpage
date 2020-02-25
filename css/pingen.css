@@ -1,0 +1,27 @@
+
+
+body {
+    font-family: sans-serif;
+}
+div {
+    min-width:300px;
+    float:left;
+    margin:10px;
+    padding:5px;
+    border: 2px solid royalblue;
+    background: lightblue;
+    color:blanchedalmond;
+    text-align:center;
+}
+#pin {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+input, select {
+    display: block;
+    width:100%;
+    box-sizing:border-box;
+    margin-bottom:2px;
+    font-size:1.2em;
+}
+
