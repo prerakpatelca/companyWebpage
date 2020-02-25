@@ -1,0 +1,624 @@
+/*
+Theme Name: Blossom Coach
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+.sticky-t-bar .blossomthemes-email-newsletter-wrapper form input[type="text"], .sticky-t-bar .blossomthemes-email-newsletter-wrapper form input[type="email"], .sticky-t-bar .blossomthemes-email-newsletter-wrapper form input[type="submit"]{
+	float: right;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.sticky-t-bar .blossomthemes-email-newsletter-wrapper form input[type="submit"]{
+	margin-right: 0;
+}
+
+.sticky-t-bar .blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"]{
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 0;;
+	border-bottom-left-radius: 0;;
+}
+
+.sticky-t-bar .blossomthemes-email-newsletter-wrapper form input[type="submit"]{
+	box-shadow: 15px 0px 0 0px #fff;
+}
+
+.sticky-t-bar span.close{
+	left: 30px;
+	right: auto;
+}
+
+.header-t .top-left .fa{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.header-t .top-left span{
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+span.close{
+	right: auto;
+	left: 5%;
+}
+
+.header-t .top-right{
+	text-align: left;
+}
+
+.top-right .header-search{
+	border-left: 0;
+	border-right:1px solid #e5e5e5;
+	padding-left: 0;
+	padding-right: 15px;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.main-header .menu-wrap{
+	text-align: left;
+}
+
+.main-navigation ul.menu li:last-child:not(.menu-item-has-children) > a{
+	padding-right: 18px;
+	padding-left: 0;
+}
+
+.main-navigation ul li.menu-item-has-children > a::after{
+	right: auto;
+	left: 9px;
+}
+
+.main-navigation ul li.menu-item-has-children > a{
+	padding-right: auto;
+	padding-left: 25px;
+}
+
+.main-navigation ul ul{
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+
+.main-navigation ul ul ul{
+	left: auto;
+	right: 100%;
+}
+
+.main-navigation ul ul li.menu-item-has-children > a::after {
+    content: "\f104";
+
+}
+
+.main-navigation ul ul ul{
+	padding-left: 0;
+	padding-right: 3px;
+}
+
+.back-to-top{
+	right: auto;
+	left: 30px;
+}
+
+.banner-caption .blossomthemes-email-newsletter-wrapper{
+	float: left;
+}
+
+.banner-caption .blossomthemes-email-newsletter-wrapper{
+	text-align: right;
+}
+
+form.search-form input.search-field{
+	float: right;
+}
+
+.search-form > label[for="submit-field"]{
+	float: right;
+}
+
+form.search-form input.search-field{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.search-form > label[for="submit-field"]{
+	border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.widget_blossomtheme_featured_page_widget .img-holder{
+	padding-right: 0;
+	padding-left: 40px;
+}
+
+.widget_blossomtheme_featured_page_widget .img-holder::before{
+	right: 40px;
+	left: 0;
+}
+
+section[class*="-section"] .widget_blossomtheme_featured_page_widget .right .text-holder{
+	text-align: right !important;
+}
+
+section[class*="-section"] .widget_blossomtheme_featured_page_widget .text-holder{
+	padding-right: 0;
+	padding-left: 50px;
+}
+
+.btn-readmore::after{
+	right: auto;
+	content: "\1F860";
+	left: 8px;
+}
+
+.btn-readmore, .btn-readmore:visited{
+	padding:  13px 30px 13px 65px;
+}
+
+.widget_blossomtheme_featured_page_widget .img-holder img{
+	box-shadow: -7px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.widget_blossomtheme_companion_cta_widget .rightbttk-cta-bg .blossomtheme-cta-container, .widget_blossomtheme_companion_cta_widget .righttext .blossomtheme-cta-container{
+	padding-right: 0;
+	padding-left: 26%;
+	text-align: right;
+}
+
+.widget_blossomtheme_companion_cta_widget .rightbttk-cta-bg .button-wrap, .widget_blossomtheme_companion_cta_widget .righttext .button-wrap{
+	left: 0;
+	text-align: left;
+	right: auto;
+}
+
+.widget_bttk_icon_text_widget{
+	text-align: right;
+}
+
+.blog-section article{
+	margin-left:2.5%;
+	margin-right: 0;
+	text-align: right;
+}
+
+.blog-section article:nth-child(3n){
+	margin-left: 0;
+	margin-right:0 ;
+}
+
+.btn-link{
+	padding-right: 0;
+	padding-left: 50px;
+}
+
+.btn-link::after{
+	content: "\1F860";
+	left: 8px;
+	right: auto;
+}
+
+section.contact-section{
+	text-align: right;
+}
+
+.contact-section .section-title::after{
+	left: auto;
+	right: 0;
+
+}
+
+section.contact-section .section-title span::after{
+	left: auto;
+	right: 20px;
+}
+
+.contact-section .left-section, .contact-section .right-section{
+	float: right;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.contact-section .left-section{
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.wpcf7-form{
+	direction: rtl;
+}
+
+.contact-list li .fa{
+	left: auto;
+	right: 0;
+}
+
+.contact-list li{
+	padding-left: 0;
+	padding-right: 40px;
+}
+
+.contact-section ul.social-icons li a{
+	margin-right: 0;
+	margin-left: 3px;
+}
+
+.newsletter-section .blossomthemes-email-newsletter-wrapper .text-holder{
+	text-align: right;
+}
+
+.newsletter-section .blossomthemes-email-newsletter-wrapper form{
+	text-align: left;
+}
+
+.newsletter-section .blossomthemes-email-newsletter-wrapper form input[type="text"], .newsletter-section .blossomthemes-email-newsletter-wrapper form input[type="email"], .newsletter-section .blossomthemes-email-newsletter-wrapper form input[type="submit"]{
+	margin-left: 0;
+	margin-right: 2.5%;
+}
+
+.newsletter-section .blossomthemes-email-newsletter-wrapper{
+	text-align: left;
+}
+
+#secondary .widget-title::before, .site-footer .widget-title::before{
+	left: auto;
+	right: 0;
+}
+
+
+
+#secondary .widget-title::after, .site-footer .widget-title::after{
+	right: 20px;
+	left: auto;
+}
+
+.widget_categories ul li::before, .widget_archive ul li::before, .widget_meta ul li::before, .widget_pages ul li::before, .widget_recent_comments ul li::before, .widget_recent_entries ul li::before{
+	left: auto;
+	right: 0;
+}
+
+.widget_categories ul li, .widget_archive ul li, .widget_meta ul li, .widget_pages ul li, .widget_recent_comments ul li, .widget_recent_entries ul li{
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.page-numbers.prev, .page-numbers.next{
+	left: auto;
+	right: 0;
+}
+
+.page-numbers.next{
+	left: 0;
+	right: auto;
+	padding-left: 50px;
+	padding-right: 0;
+}
+
+.page-numbers.prev::before, .page-numbers.next::before{
+	right: auto;
+	left: 0;
+}
+
+.page-numbers.next::before{
+	-webkit-transform: rotate(180deg);
+   transform: rotate(180deg);
+}
+
+.page-numbers.prev{
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+.page-numbers.prev::before{
+	/*content: "\2794";*/
+	right: 0;
+	left: auto;
+	-webkit-transform: rotate(0);
+   transform: rotate(0);
+}
+
+#primary blockquote, .blockquote-section blockquote{
+	padding-left: 0;
+	padding-right: 80px;
+}
+
+blockquote::before, q::before{
+	left: auto;
+	right: 0;
+	content: "\201D";
+}
+
+blockquote::after, q::after{
+	left: auto;
+	right: 30px;
+}
+
+.page.style1 header.page-header{
+	text-align: right;
+}
+
+.single.style1 .entry-meta span a{
+	display: inline-block;
+}
+
+.single .entry-meta > span{
+	margin-right: 0;
+	margin-left: 60px;
+}
+
+.single .entry-meta > span::before{
+	right: auto;
+	left: -33px;
+}
+
+.tags a{
+	border-left: 0;
+	border-right:3px solid #88ced0; ;
+}
+
+.tags a::before{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.author-profile .author-img{
+	float: right;
+}
+
+.author-profile .author-content-wrap{
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+
+
+.author-content-wrap .author-name::before{
+	left: auto;
+	right: 0;
+}
+
+.author-content-wrap .author-name::after{
+	left: auto;
+	right: 20px;
+}
+
+.single .nav-links div[class*="nav"] a .fa{
+	left: auto;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.single .nav-links div.nav-next a .fa{
+	left: 0;
+	right: auto;
+}
+
+.single .pagination .nav-previous{
+	padding-right: 0;
+	padding-left: 20px;
+}
+
+.single .pagination .nav-next{
+	padding-left: 0;
+	padding-right: 20px;
+	text-align: left;
+}
+
+.single .nav-links div[class*="nav"] a{
+	padding-right: 155px;
+	padding-left: 0;
+	display: inline-block;
+}
+
+.single .nav-links div.nav-next a{
+	padding-right: 0;
+	padding-left: 155px;
+}
+
+.single .nav-links .nav-next span.meta-nav{
+	left: 0;
+	right: auto;
+}
+
+.single .nav-links a figure{
+	left: auto;
+	right: 35px;
+}
+
+.single .nav-links .nav-next a figure{
+	left: 35px;
+	right: auto;
+}
+
+.single .pagination .nav-next:after{
+	left: auto;
+	right: -3px;
+}
+
+.single .pagination .nav-previous:after{
+	right: auto;
+	left: -4px;
+}
+
+.single .navigation .nav-links{
+	text-align: right;
+}
+
+.comments-area .comments-title::before, .comment-respond .comment-reply-title::before{
+	left: auto;
+	right: 0;
+}
+
+.comments-area .comments-title::after, .comment-respond .comment-reply-title::after{
+	left: auto;
+	right: 20px;
+}
+
+.related-articles .article-block, .latest-articles .article-block{
+	text-align: right;
+	margin-left: 2%;
+	margin-right: 0;
+}
+
+.related-articles .article-block:nth-child(3n), .latest-articles .article-block:nth-child(3n){
+	margin-left: 0;
+}
+
+.list-view .article-content-wrap{
+	float: right;
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.list-view article.post figure.post-thumbnail{
+	float: right;
+}
+
+div.category a{
+	display: inline-block;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.comments-area .bypostauthor .comment-body{
+	padding-right: 100px;
+	padding-left: 30px;
+	border-left: 0;
+	border-right: 4px solid #88ced0;
+}
+
+.bypostauthor .comment-body img.avatar{
+	left: auto;
+	right: 30px;
+}
+
+.comment-body .reply{
+	left: auto;
+	right: 70px;
+}
+
+.comment-body .reply .comment-reply-link::before{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 0;
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.comments-area ol li ol{
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+.comment-body img.avatar{
+	left: auto;
+	right: 0;
+}
+
+.comments-area .comment-body{
+	padding-left: 30px;
+	padding-right: 70px;
+}
+
+.rtl .back-to-top {
+    right: auto;
+    left: 30px;
+}
+
+@media screen and (max-width: 980px) {
+	.main-header .menu-wrap{
+		text-align: center;
+	}
+
+	.header-t .top-left span{
+		margin-left: 8px;
+	}
+
+	.main-navigation ul.menu{
+		text-align: right;
+	}
+
+	.main-navigation ul li.menu-item-has-children span.fa{
+		left: 10px;
+		right: auto;
+	}
+
+	.main-navigation ul li.menu-item-has-children > a{
+		padding-right: 20px;
+	}
+
+	.main-header .menu-wrap{
+		text-align: left;
+	}
+
+	.widget_blossomtheme_companion_cta_widget .rightbttk-cta-bg .blossomtheme-cta-container, .widget_blossomtheme_companion_cta_widget .righttext .blossomtheme-cta-container{
+		padding-left: 30%;
+		padding-right: 2%;;
+	}
+
+	.widget_blossomtheme_companion_cta_widget .rightbttk-cta-bg .button-wrap, .widget_blossomtheme_companion_cta_widget .righttext .button-wrap{
+		left: 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.sticky-t-bar span.close{
+		left: 10px;
+	}
+
+	.header-t .top-right{
+		text-align: center;
+	}
+
+	section[class*="-section"] .widget_blossomtheme_featured_page_widget .img-holder{
+		padding-left: 20px;
+	}
+
+	.related-articles .article-block, .latest-articles .article-block{
+		width: 48.33%;
+	}
+
+	.related-articles .article-block:nth-child(2n), .latest-articles .article-block:nth-child(2n){
+		margin-left: 0;
+	}
+
+	.related-articles .article-block:nth-child(3n), .latest-articles .article-block:nth-child(3n){
+		margin-left: 2%;
+		margin-right: 0;
+	}
+
+	
+}
+
+@media screen and (max-width: 540px) {
+	.newsletter-section .blossomthemes-email-newsletter-wrapper form input[type="text"], .newsletter-section .blossomthemes-email-newsletter-wrapper form input[type="email"], .newsletter-section .blossomthemes-email-newsletter-wrapper form input[type="submit"]{
+		margin-right: 0;
+	}
+
+	.main-header .menu-wrap{
+		text-align: center;
+	}
+
+	.related-articles .article-block, .latest-articles .article-block{
+		width: 100%;
+	}
+}

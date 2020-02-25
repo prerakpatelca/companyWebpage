@@ -1,0 +1,744 @@
+# Copyright (C) 2019 Rise Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gutenbiz Dev 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/gutenbiz-dev\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-26T08:41:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: gutenbiz\n"
+
+#. Theme Name of the theme
+msgid "Gutenbiz Dev"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://risethemes.com/downloads/gutenbiz/"
+msgstr ""
+
+#. Description of the theme
+msgid "Gutenbiz, a fully compatible theme for Gutenberg Blocks. It's a beautiful and elegant theme that integrates with the new Gutenberg editor and the Rise block plugin. No coding required to develop a professional website. Download the free version of the theme and start to create your own website."
+msgstr ""
+
+#. Author of the theme
+#: footer.php:47
+msgid "Rise Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://risethemes.com/"
+msgstr ""
+
+#: 404.php:17
+msgid "Opps!"
+msgstr ""
+
+#: 404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:382
+#: templates/pages/page-none.php:179
+msgid "Goto Homepage"
+msgstr ""
+
+#: classes/class-breadcrumb.php:246
+msgid "Browse:"
+msgstr ""
+
+#: classes/class-breadcrumb.php:247
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: classes/class-breadcrumb.php:248
+#: classes/class-helper.php:576
+msgid "Home"
+msgstr ""
+
+#: classes/class-breadcrumb.php:249
+msgid "404 Not Found"
+msgstr ""
+
+#: classes/class-breadcrumb.php:250
+msgid "Archives"
+msgstr ""
+
+#. Translators: %s is the search query. The HTML entities are opening and closing curly quotes.
+#: classes/class-breadcrumb.php:252
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: classes/class-breadcrumb.php:254
+msgid "Page %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: classes/class-breadcrumb.php:256
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: classes/class-breadcrumb.php:258
+msgid "Week %s"
+msgstr ""
+
+#: classes/class-breadcrumb.php:710
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: classes/class-breadcrumb.php:727
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: classes/class-breadcrumb.php:744
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: classes/class-breadcrumb.php:760
+#: classes/class-breadcrumb.php:789
+#: classes/class-breadcrumb.php:816
+#: classes/class-breadcrumb.php:843
+#: classes/class-breadcrumb.php:1183
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: classes/class-breadcrumb.php:761
+#: classes/class-breadcrumb.php:817
+#: classes/class-breadcrumb.php:1187
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: classes/class-breadcrumb.php:762
+#: classes/class-breadcrumb.php:1191
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: classes/class-breadcrumb.php:790
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: classes/class-helper.php:111
+msgid "Skip to content"
+msgstr ""
+
+#: classes/class-helper.php:211
+msgid "Leave a comment"
+msgstr ""
+
+#: classes/class-helper.php:212
+msgid "1 response"
+msgstr ""
+
+#: classes/class-helper.php:213
+msgid "responses"
+msgstr ""
+
+#: classes/class-helper.php:638
+msgid "Previous"
+msgstr ""
+
+#: classes/class-helper.php:639
+msgid "Next"
+msgstr ""
+
+#: classes/class-helper.php:656
+msgid "Pages:"
+msgstr ""
+
+#: classes/class-helper.php:675
+msgid "Previous Post"
+msgstr ""
+
+#: classes/class-helper.php:676
+msgid "Next Post"
+msgstr ""
+
+#: classes/class-helper.php:761
+msgid "By "
+msgstr ""
+
+#: classes/class-helper.php:805
+msgid "On"
+msgstr ""
+
+#: classes/class-helper.php:805
+msgid "Updated on"
+msgstr ""
+
+#: classes/class-helper.php:840
+msgid "Edit"
+msgstr ""
+
+#: classes/class-helper.php:958
+msgid "Search Results for: %s"
+msgstr ""
+
+#: classes/class-helper.php:1038
+msgid "Tags:"
+msgstr ""
+
+#: classes/class-helper.php:1138
+msgid "Lato"
+msgstr ""
+
+#: classes/class-helper.php:1139
+msgid "Oswald"
+msgstr ""
+
+#: classes/class-helper.php:1140
+msgid "Montserrat"
+msgstr ""
+
+#: classes/class-helper.php:1141
+msgid "Roboto"
+msgstr ""
+
+#: classes/class-helper.php:1142
+msgid "Raleway"
+msgstr ""
+
+#: classes/class-helper.php:1143
+msgid "Playfair Display"
+msgstr ""
+
+#: classes/class-helper.php:1144
+msgid "Fjalla One"
+msgstr ""
+
+#: classes/class-helper.php:1145
+msgid "Alegreya Sans"
+msgstr ""
+
+#: classes/class-helper.php:1146
+msgid "PT Sans Narrow"
+msgstr ""
+
+#: classes/class-helper.php:1147
+msgid "Open Sans"
+msgstr ""
+
+#: classes/class-helper.php:1148
+msgid "Poppins"
+msgstr ""
+
+#: classes/customizer/class-framework.php:191
+msgid "Invalid argument passed for Custom Control. Must be an array with \"type\" & \"class\" key."
+msgstr ""
+
+#: classes/customizer/class-framework.php:198
+msgid "Custom Control must contain \"type\" key ( type of control )."
+msgstr ""
+
+#: classes/customizer/class-framework.php:204
+msgid "Custom Control must contain \"class\" key ( name of custom class )."
+msgstr ""
+
+#: classes/customizer/class-framework.php:210
+msgid "Custom Control must contain \"sanitize\" key ( a callback function )."
+msgstr ""
+
+#. translators: %s: name of field id that user feed
+#: classes/customizer/class-framework.php:292
+msgid "Field with ID: %s already exists."
+msgstr ""
+
+#: classes/customizer/class-framework.php:333
+msgid "You must pass array as an argument in set method."
+msgstr ""
+
+#: classes/customizer/class-framework.php:341
+msgid "No section found."
+msgstr ""
+
+#: classes/customizer/class-framework.php:351
+#: classes/customizer/class-framework.php:373
+msgid "Invalid argument"
+msgstr ""
+
+#: classes/customizer/class-framework.php:352
+msgid "section"
+msgstr ""
+
+#: classes/customizer/class-framework.php:353
+msgid "Must be a an array with atleast an id, title..."
+msgstr ""
+
+#: classes/customizer/class-framework.php:360
+msgid "Section id is missing."
+msgstr ""
+
+#: classes/customizer/class-framework.php:366
+msgid "Fields are missing."
+msgstr ""
+
+#: classes/customizer/class-framework.php:374
+msgid "fields"
+msgstr ""
+
+#: classes/customizer/class-framework.php:375
+msgid "Must be a an array"
+msgstr ""
+
+#: classes/customizer/class-framework.php:450
+msgid "Gutenbiz Customizer:"
+msgstr ""
+
+#: classes/customizer/class-framework.php:698
+#: classes/customizer/class-framework.php:897
+msgid "No Title Specified."
+msgstr ""
+
+#: classes/customizer/class-framework.php:699
+#: inc/theme-options/typography.php:16
+msgid "Theme Options"
+msgstr ""
+
+#: classes/customizer/custom-control/reset/reset.php:80
+msgid "This action is not reversible! Are you sure to reset these settings?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:37
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:43
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:45
+msgid "Created By:"
+msgstr ""
+
+#: functions.php:153
+msgid "Inner Banner Options"
+msgstr ""
+
+#: functions.php:171
+msgid "Gutenbiz Settings"
+msgstr ""
+
+#: functions.php:178
+msgid "Sidebar Position:"
+msgstr ""
+
+#: functions.php:181
+msgid "From customizer"
+msgstr ""
+
+#: functions.php:182
+#: inc/theme-options/inner-banner-options.php:64
+#: inc/theme-options/sidebar-options.php:35
+msgid "Left"
+msgstr ""
+
+#: functions.php:183
+#: inc/theme-options/inner-banner-options.php:66
+#: inc/theme-options/sidebar-options.php:36
+msgid "Right"
+msgstr ""
+
+#: functions.php:184
+msgid "Hide"
+msgstr ""
+
+#: functions.php:193
+msgid "Disable Banner"
+msgstr ""
+
+#: functions.php:197
+msgid "Disable Footer Widget"
+msgstr ""
+
+#: functions.php:262
+msgid "Read More"
+msgstr ""
+
+#. translators: %d: number of unexpected outputed characters
+#: functions.php:549
+msgid "Footer Widget Area %d "
+msgstr ""
+
+#: functions.php:551
+msgid "Widgets in this area will be shown on footer."
+msgstr ""
+
+#: functions.php:561
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:563
+msgid "Widgets in this area will be shown on side of the page."
+msgstr ""
+
+#: functions.php:583
+msgid "Primary"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:34
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:40
+msgid "Show Preloader"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:45
+msgid "Assets Version"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:49
+msgid "Development"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:50
+msgid "Production"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:55
+msgid "Site Layout"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:59
+msgid "Default"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:60
+msgid "Boxed"
+msgstr ""
+
+#: inc/theme-options/advance-options.php:65
+msgid "Container Width"
+msgstr ""
+
+#: inc/theme-options/breadcrumb-options.php:40
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/theme-options/breadcrumb-options.php:46
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: inc/theme-options/breadcrumb-options.php:53
+msgid "Separator"
+msgstr ""
+
+#: inc/theme-options/breadcrumb-options.php:67
+#: inc/theme-options/inner-banner-options.php:30
+msgid "Font Size"
+msgstr ""
+
+#: inc/theme-options/breadcrumb-options.php:68
+msgid "The value is in px.  Defaults to 16px."
+msgstr ""
+
+#: inc/theme-options/color-options.php:17
+msgid "Color Options"
+msgstr ""
+
+#: inc/theme-options/color-options.php:23
+msgid "Primary Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:29
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:35
+msgid "Primary Menu Item color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:45
+msgid "Link Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:51
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:61
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:67
+msgid "Sidebar Widget Content Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:77
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:83
+msgid "Footer Widget Content Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:93
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:99
+msgid "Footer Copyright Background Color"
+msgstr ""
+
+#: inc/theme-options/color-options.php:105
+msgid "Footer Copyright Text Color"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:20
+msgid "Footer Options"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:26
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:27
+msgid "Add widget to display in footer."
+msgstr ""
+
+#: inc/theme-options/footer-options.php:32
+msgid "One widget"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:37
+msgid "Two widget"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:42
+msgid "Thee widget"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:47
+msgid "Four widget"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:55
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/theme-options/footer-options.php:56
+msgid "Copyright &copy; RiseThemes 2019. All right reserved."
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:22
+msgid "Title"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:23
+msgid "It is displayed when home page is latest posts."
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:24
+msgid "Latest Blog"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:31
+msgid "The value is in px. Defaults to 40px."
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:47
+msgid "Text Color"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:53
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:60
+msgid "Alignment"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:65
+msgid "Center"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:72
+msgid "Image Attachment"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:76
+msgid "Scroll"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:77
+msgid "Fixed"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:83
+msgid "Height (px)"
+msgstr ""
+
+#: inc/theme-options/inner-banner-options.php:85
+msgid "The value is in px. Defaults to 420px."
+msgstr ""
+
+#: inc/theme-options/post-options.php:17
+msgid "Post Options"
+msgstr ""
+
+#: inc/theme-options/post-options.php:22
+msgid "Show Categories"
+msgstr ""
+
+#: inc/theme-options/post-options.php:28
+msgid "Show Date"
+msgstr ""
+
+#: inc/theme-options/post-options.php:34
+msgid "Show Author"
+msgstr ""
+
+#: inc/theme-options/post-options.php:40
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/theme-options/post-options.php:41
+msgid "Defaults to 10."
+msgstr ""
+
+#: inc/theme-options/reset-options.php:30
+msgid "Reset Options"
+msgstr ""
+
+#: inc/theme-options/reset-options.php:37
+msgid "Reset"
+msgstr ""
+
+#: inc/theme-options/reset-options.php:38
+msgid "Reseting will delete all the data. Once reset, you will not be able to get back those data."
+msgstr ""
+
+#: inc/theme-options/sidebar-options.php:25
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/theme-options/sidebar-options.php:31
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/theme-options/sidebar-options.php:37
+msgid "None"
+msgstr ""
+
+#: inc/theme-options/site-identity.php:28
+msgid "Title Size"
+msgstr ""
+
+#: inc/theme-options/site-identity.php:29
+#: inc/theme-options/site-identity.php:45
+#: inc/theme-options/typography.php:11
+msgid "The value is in px."
+msgstr ""
+
+#: inc/theme-options/site-identity.php:44
+msgid "Tagline Size"
+msgstr ""
+
+#: inc/theme-options/typography.php:22
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-options/typography.php:29
+msgid "Site Identity Font Family"
+msgstr ""
+
+#: inc/theme-options/typography.php:30
+msgid "Font family for site title and tagline. Defaults to Poppins"
+msgstr ""
+
+#: inc/theme-options/typography.php:37
+msgid "Body Font Family."
+msgstr ""
+
+#: inc/theme-options/typography.php:38
+msgid "Defaults to Poppins."
+msgstr ""
+
+#: inc/theme-options/typography.php:45
+msgid "Headings Font Family."
+msgstr ""
+
+#: inc/theme-options/typography.php:46
+msgid "h1 to h6. Defaults to Poppins."
+msgstr ""
+
+#: inc/theme-options/typography.php:53
+msgid "Body Font Size."
+msgstr ""
+
+#: inc/theme-options/typography.php:54
+msgid "Defaults to 15px."
+msgstr ""
+
+#: inc/theme-options/typography.php:69
+msgid "Post Title Font Size"
+msgstr ""
+
+#: inc/theme-options/typography.php:70
+msgid "Defaults to 21px."
+msgstr ""
+
+#: inc/theme-options/typography.php:85
+msgid "Primary Menu Font Size"
+msgstr ""
+
+#: inc/theme-options/typography.php:101
+msgid "Widget Title Font Size"
+msgstr ""
+
+#: inc/theme-options/typography.php:117
+msgid "Widget Content Font Size"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16
+msgid "Search"
+msgstr ""
+
+#: searchform.php:23
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: templates/pages/page-none.php:163
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/pages/page-none.php:171
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: templates/pages/page-none.php:173
+msgid "Get Started here"
+msgstr ""

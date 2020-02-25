@@ -1,0 +1,12 @@
+body,
+button,
+input,
+optgroup,
+select,
+textarea,
+body .editor-styles-wrapper {
+    font-family: Lato, sans-serif;
+}
+.wp-block{
+    max-width: 1200px !important;
+}

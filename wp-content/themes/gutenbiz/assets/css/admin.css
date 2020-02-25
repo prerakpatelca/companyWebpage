@@ -1,0 +1,15 @@
+.gutenbiz-meta-box-item { margin-bottom: 15px; }
+
+.gutenbiz-meta-box-item .gutenbiz-meta-checkbox label.components-base-control__label { display: inline; position: relative; top: -3px; }
+
+.edit-post-sidebar #gutenbiz-settings > .ui-sortable-handle { position: relative; padding: 15px; outline: 0; width: 100%; font-weight: 600; text-align: left; color: #191e23 !important; border: none; box-shadow: none; transition: .1s background ease-in-out; cursor: pointer; }
+
+.edit-post-sidebar #gutenbiz-settings > .ui-sortable-handle:hover { background: #f8f9f9; }
+
+.edit-post-sidebar #gutenbiz-settings .handlediv { position: relative; z-index: 999; }
+
+.edit-post-sidebar #gutenbiz-settings .handlediv .toggle-indicator:before { content: "\F347"; color: #191e23 !important; }
+
+.edit-post-sidebar #gutenbiz-settings .handlediv[aria-expanded="true"] .toggle-indicator:before { content: "\F343"; }
+
+/*# sourceMappingURL=admin.css.map*/
