@@ -5,7 +5,7 @@
   *  Author: Patel
   *
   */
-//StAuth10127: I Prerak Patel, 000825410 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.
+
 
   function myplugin_activate() {
      global $wpdb;
