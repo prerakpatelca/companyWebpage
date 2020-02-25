@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Dynamic Quiz Project</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+
+    <body>
+        
+        <!--Division for quiz-->
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <div class="register">
+            
+            <!--Container for nicely displaying Quiz-->
+            <div class='registerform'>
+                
+                <!--To display progress of Quiz-->
+                <div id='displaySavedAnswer' class="imageSaved"></div>
+                
+                <!--To display heading of Quiz-->
+                <h1 id="heading">General Knowledge Quiz !!</h1>
+                <br/>
+
+                <!--To get the quiz from the array and print-->
+                <div id="quiz"></div>
+                <br>
+                
+                <!--On Click Listener Button for Previous-->
+                <button id="previous" ><strong><<<</strong></button>
+                
+                <!--On Click Listener Button to save answer-->
+                <button id='saved'>Save Answer</button>
+                
+                <!--On Click Listener Button for Next-->
+                <button id="next"><strong>>>></strong></button>
+                
+                <!--On Click Listener Button for submitting Quiz-->
+                <button id="submit">Submit Quiz</button>
+                
+                <!--On Click Listener Button to start the quiz again-->
+                <button id="startAgain">Start Again</button>
+                <br>
+                
+                <!--To display the results of the quiz-->
+                <div id="results"></div>
+                
+            </div>
+
+            <!--To call script-->
+            <script src="gkQuiz.js"></script>
+
+        </div>
+    </body>
+</html>
